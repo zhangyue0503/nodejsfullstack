@@ -31,13 +31,7 @@ var pool = mysql.createPool({
     host:'localhost',
     user:'root',
     password:'',
-    database:'nodetest',
-    pool:{
-        max:5,
-        min:0,
-        acquire:30000, //多久没有释放自动释放
-        idle:10000 //多久没用到释放
-    }
+    database:'nodetest'
 });
 
 pool.getConnection(function(err,connection){
@@ -54,7 +48,13 @@ const Sequelize = require('sequelize');
 
 const sequelize = new Sequelize('nodetest','root','',{
     host:'localhost',
-    dialect: 'mysql'
+    dialect: 'mysql',
+    pool:{
+        max:5,
+        min:0,
+        acquire:30000, //多久没有释放自动释放
+        idle:10000 //多久没用到释放
+    }
 });
 
 //定义模型
