@@ -1,0 +1,19 @@
+{
+  "name": "nodejsstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangyue0503/nodejsfullstack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangyue0503/nodejsfullstack/issues"
+  },
+  "homepage": "https://github.com/zhangyue0503/nodejsfullstack#readme"
+}
