@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/zhangyue0503/nodejsfullstack/issues"
   },
-  "homepage": "https://github.com/zhangyue0503/nodejsfullstack#readme"
+  "homepage": "https://github.com/zhangyue0503/nodejsfullstack#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  }
 }
