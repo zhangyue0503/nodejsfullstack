@@ -1,0 +1,19 @@
+{
+  "name": "p4",
+  "version": "1.0.0",
+  "description": "实现对blog表数据增删改查的数据API,通过返回JSON结构的数据.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.imweb.io/zhangyue0503/node-P4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.10"
+  }
+}

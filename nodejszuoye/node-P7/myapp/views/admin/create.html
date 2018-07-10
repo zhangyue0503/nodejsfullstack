@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Blog1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <h1>添加</h1>
+    <div>
+        <form action="/admin/blog_create_post" method="post">
+            <dl>
+                <dt>标题：</dt>
+                <dd>
+                    <input type="text" name="title">
+                </dd>
+                <dt>内容：</dt>
+                <dd>
+                    <textarea name="content" rows="30" cols="60"></textarea>
+                </dd>
+
+                <dd>
+                    <input type="submit" value="提交">
+                </dd>
+
+            </dl>
+
+
+        </form>
+
+    </div>
+</body>
+
+</html>

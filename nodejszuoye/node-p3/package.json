@@ -1,0 +1,20 @@
+{
+  "name": "p3",
+  "version": "1.0.0",
+  "description": "## 搭建博客查看页面",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.imweb.io/zhangyue0503/node-p3.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

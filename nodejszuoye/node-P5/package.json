@@ -1,0 +1,20 @@
+{
+  "name": "p5",
+  "version": "1.0.0",
+  "description": "演示的例子里已经基本包括了完成这个项目的知识点 大家按照下面这3点去实现",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.imweb.io/zhangyue0503/node-P5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.10"
+  }
+}
